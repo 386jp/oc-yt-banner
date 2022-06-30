@@ -1,0 +1,115 @@
+:root {
+  --height: 5.20833333vw; /*- 1920:100 = 100vw:x -*/
+  --background: #3789DB;
+  --color: #fff;
+}
+
+p {
+  margin: 0;
+}
+
+.sections{
+  width: 100vw;
+  height: var(--height);
+  background-color: #fff;
+  display: flex;
+}
+
+.section_carousel {
+  background-color: #807897;
+  flex-grow: 1;
+}
+
+.section_tag {
+  width: calc(var(--height) * 2.25);
+  margin-left: auto;
+}
+
+.carouselSlide {
+  display: flex;
+}
+
+.carouselSlide > * {
+  height: 100%;
+}
+
+/* .carousel1 {
+  width: var(--height);
+}
+
+.carousel2 {
+  width: calc(var(--height) * 3.5);
+}
+
+.carousel3 {
+  flex-grow: 1;
+}
+
+.carousel4 {
+  width: var(--height);
+} */
+
+
+/*
+
+
+.carouselSlide > * {
+  height: 100%;
+  width: 100%;
+} */
+
+.icon {
+  width: var(--height);
+  object-fit: cover;
+}
+
+.topicText {
+  width: calc(var(--height) * 3.5);
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topicText p {
+  color: var(--color);
+  font-weight: 600;
+  font-size: 1.7vw;
+  white-space: pre-wrap;
+}
+
+.mainText {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainText p {
+  color: var(--color);
+  font-weight: 600;
+  font-size: 2vw;
+  white-space: pre-wrap;
+  text-align: center;
+  line-height: 2.2vw;
+}
+
+.qr {
+  width: var(--height);
+  margin-left: auto;
+}
+
+.tagText {
+  width: calc(var(--height) * 2.25);
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagText p {
+  color: var(--color);
+  font-weight: 900;
+  font-size: 2.5vw;
+  white-space: pre-wrap;
+}
