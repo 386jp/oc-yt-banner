@@ -7,7 +7,7 @@ import 'swiper/css';
 
 const hashtag = "MUDS"
 const backgroundSrc = process.env.PUBLIC_URL + "/res/background/inkdrop_01.png"
-const displaySpeed = 5000
+const displaySpeed = 10000
 
 const carouselData = [
   {
