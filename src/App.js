@@ -6,51 +6,57 @@ import './App.css';
 import 'swiper/css';
 
 const hashtag = "MUDS"
-const backgroundSrc = "https://www.386.jp/assets/img/portfolio_res/top_bg.jpg"
+const backgroundSrc = process.env.PUBLIC_URL + "/res/background/inkdrop_01.png"
 const displaySpeed = 5000
 
 const carouselData = [
   {
-    iconSrc: "https://dummyimage.com/600x400/000/fff",
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/twitter.png",
     topicText: "フォロー\nお待ちしております!",
     mainText: "MUDS公式Twitter: @DS_Musashino",
     qrSrc: "https://twitter.com/ds_musashino",
   },
   {
-    iconSrc: "https://dummyimage.com/600x400/000/fff",
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/twitter.png",
     topicText: "フォロー\nお待ちしております!",
     mainText: "MUDS学生公式Twitter: @muds_data_stu",
     qrSrc: "https://twitter.com/muds_data_stu",
   },
   {
-    iconSrc: "https://dummyimage.com/600x400/000/fff",
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/google-sites.png",
     topicText: "学生目線の情報は\n学生運営サイトへ!",
     mainText: "学生へのインタビューや、授業などでの成果物を掲載しています\nstu-muds.io",
     qrSrc: "https://www.stu-muds.io",
   },
   {
-    iconSrc: "https://dummyimage.com/600x400/000/fff",
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/qiita.png",
     topicText: "フォローやLGTM\nお待ちしております!",
     mainText: "日々のコーディングのノウハウなどについて書き溜めています\nqiita.com/organizations/muds",
     qrSrc: "https://qiita.com/organizations/muds",
   },
   {
-    iconSrc: "https://dummyimage.com/600x400/000/fff",
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/instagram.png",
     topicText: "フォロー\nお待ちしております!",
     mainText: "MUDS公式Instagram: @ds.musashino.university",
     qrSrc: "https://www.instagram.com/ds.musashino.university/",
   },
   {
-    iconSrc: "https://dummyimage.com/600x400/000/fff",
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/instagram.png",
     topicText: "フォロー\nお待ちしております!",
     mainText: "MUDS学生公式Instagram: @muds2019",
     qrSrc: "https://www.instagram.com/muds2019/",
   },
   {
-    iconSrc: "https://dummyimage.com/600x400/000/fff",
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/google-sites.png",
     topicText: "研究紹介はMUDS\nオーキャンサイトへ!",
     mainText: "研究紹介や、MUDSに関する情報が掲載されています\nsites.google.com/ds.musashino-u.ac.jp/mudsoc2022",
     qrSrc: "https://sites.google.com/ds.musashino-u.ac.jp/mudsoc2022",
+  },
+  {
+    iconSrc: process.env.PUBLIC_URL + "/res/icon/youtube.png",
+    topicText: "チャンネル登録\nお待ちしております!",
+    mainText: "オープンキャンパスや高校生向けセミナーの様子を公開しています!\nライブ配信なども行っているので通知のONもお願いします!",
+    qrSrc: "https://www.youtube.com/channel/UC8EYVG5oxBPe0zDdwpny2Rw",
   }
 ]
 

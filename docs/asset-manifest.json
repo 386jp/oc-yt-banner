@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oc-yt-banner/static/css/main.71567cbd.css",
+    "main.js": "/oc-yt-banner/static/js/main.a769e027.js",
+    "index.html": "/oc-yt-banner/index.html",
+    "main.71567cbd.css.map": "/oc-yt-banner/static/css/main.71567cbd.css.map",
+    "main.a769e027.js.map": "/oc-yt-banner/static/js/main.a769e027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71567cbd.css",
+    "static/js/main.a769e027.js"
+  ]
+}
