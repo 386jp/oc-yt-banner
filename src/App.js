@@ -55,7 +55,7 @@ const carouselData = [
   {
     iconSrc: process.env.PUBLIC_URL + "/res/icon/youtube.png",
     topicText: "チャンネル登録\nお待ちしております!",
-    mainText: "オープンキャンパスや高校生向けセミナーの様子を公開しています!\nライブ配信なども行っているので通知のONもお願いします!",
+    mainText: "OCや高校生向けセミナーの様子を公開しています!\nライブ配信なども行っているので通知のONもお願いします!",
     qrSrc: "https://www.youtube.com/channel/UC8EYVG5oxBPe0zDdwpny2Rw",
   }
 ]
