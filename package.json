@@ -2,7 +2,7 @@
   "name": "oc-yt-banner",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://386jp.github.io/oc-yt-banner",
+  "homepage" : "https://oc-yt-banner.k386.dev",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
